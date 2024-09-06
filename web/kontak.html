@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style type="text/css"></style>
+</head>
+<body>
+    <style>
+        nav {
+            display: flex;
+            justify-content: center;
+        }
+        nav ul {
+            display: flex;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav li {
+            margin-right: 10px;
+        }
+
+    </style>
+    <!-- Header -->
+    <header id="header" class="transparent-nav"></header>
+    <div class="container">
+        <nav id="nav">
+            <ul class="main-menu nav navbar-nav navbar-right">
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+        <!--form-->
+        <h1>Formulir Kontak: </h1>
+        <form>
+            <label for="fname">Nama: </label> <input type="text" id="fname" name="fname"><br>
+        </form>
+        
+        <!--radio button-->
+        <p>Kewarganegaraan:</p>
+
+        <form>
+            <input type="radio" id="wni" name="kewarganegaraan" value="WNI">
+            <label for="wni">WNI</label><br>
+            <input type="radio" id="asing" name="kewarganegaraan" value="CSS">
+            <label for="asing">Asing</label><br>
+        </form>
+
+        <!--checks box-->
+        <p>Layanan:</p>
+        
+        <form>
+            <input type="checkbox" id="layanan1" name="layanan1" value="Website">
+            <label for="layanan2">Website</label><br>
+            <input type="checkbox" id="layanan2" name="layanan2" value="Hosting">
+            <label for="layanan2">Hosting</label><br>
+        </form>
+
+        <!--submit button-->
+        <form>
+            <input type="submit" value="Kirim">
+            <input type="submit" value="Hapus">
+        </form>
+
+    </header>
+    <!-- /Header -->
+</body>
+</html>
