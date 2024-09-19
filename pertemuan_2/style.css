@@ -1,0 +1,67 @@
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: blue;
+}
+
+nav li a{
+    margin-right: 10px;
+    color: aliceblue;
+    padding: 14px 15px;
+    display: block;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: left;
+}
+
+.artikel {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 20px; /* Menambahkan jarak antara artikel */
+}
+
+.img1 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    float: left;
+    padding-right: 10px;
+}
+.imgber1{
+    width: 800px;
+    height: 800px;
+    object-fit: cover;
+    left: auto;
+}
+
+.berita1 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 20px; /* Menambahkan jarak antara artikel */
+}
+
+.section-hr {
+    border: none;              /* Menghapus gaya default garis */
+    border-top: 2px solid #ccc; /* Menambahkan garis solid di bagian atas */
+    margin: 20px 0;            /* Menambahkan margin atas dan bawah */
+    width: 80%;                /* Menentukan lebar garis */
+    margin-left: auto;         /* Memposisikan garis di tengah */
+    margin-right: auto;
+}
+
+.div {
+    margin-right: 100px;
+    clear: left;
+}
